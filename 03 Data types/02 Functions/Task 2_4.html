@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Count of div's tags</title>
+</head>
+<body>
+	<div>1</div>
+	<div>2</div>
+	<div>3</div>
+	<div>11</div>
+	<div>22</div>
+	<div>33</div>
+
+	<script type="text/javascript">
+	function count(){
+		var countDiv = document.getElementsByTagName('div');
+		return countDiv.length;
+	}
+
+	document.write("Count of div: " + count());	
+	</script>
+</body>
+</html>
